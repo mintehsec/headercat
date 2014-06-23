@@ -20,15 +20,12 @@ print url
  
 find = re.search("(Powered.*)", headers)
 if find:
-    # This is reached.
     print"Found: ", find.group(1)
  
 find = re.search("(Asp.*)", headers)
 if find:
-    # This is reached.
     print"Found: ", find.group(1)
                 
 find = re.search("(IIS.*)", headers)
 if find:
-    # This is reached.
     print"Found: ", find.group(1)
